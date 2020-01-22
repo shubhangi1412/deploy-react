@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
+  background-color: #ebf5ff;
 }
 
 div.table-title {
@@ -128,6 +129,12 @@ td.text-right {
 }
 
 .main{
-  padding: 10px 20px;
+  padding: 10px;
   background-color: #ebf5ff;
+}
+.btn{
+  margin: 15px !important;
+}
+.contentDiv{
+  background-color: white;
 }

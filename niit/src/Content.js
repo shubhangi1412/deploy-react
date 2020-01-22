@@ -91,8 +91,8 @@ class Content extends React.Component {
       <div>
         <div className={classes.root}>
         <Grid container>
-        <Grid item md={3}>
-        <div className='content'><Button variant="contained" color="primary">Add Candidates</Button>
+        <Grid item md={3} className="contentDiv">
+        <div className='content'><Button variant="contained" color="primary" className="btn">Add Candidates</Button>
           <table id='table1' className="table-fill">
                <tbody className="table-hover">
                {this.renderTableData()}
@@ -128,7 +128,7 @@ class Content extends React.Component {
             </table>
             </Grid>
             <Grid item md={4}>
-              <Paper className={classes.paper}>item</Paper>
+              <Paper className={classes.paper}>Third Table</Paper>
             </Grid>
             
         </Grid>
